@@ -1,0 +1,17 @@
+selector {
+background: linear-gradiento(ti rigth, #ff006e, #7209b7, #3a0ca3, #4361ee);
+background-size: 300% 300%;
+animation: bnt-animado 5s ease-in-out infinite;
+border-radius: 50px;
+}
+@keyframes btn-animado{
+0%{
+background-position:0% 50%;
+}
+50%{
+background-position:100% 50%;
+}
+100%{
+background-position: 00% 50%;
+}
+}
